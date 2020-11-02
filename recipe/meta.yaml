@@ -37,6 +37,7 @@ requirements:
     - r-minqa
     - r-mnormt
     - libblas
+    - liblapack
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
