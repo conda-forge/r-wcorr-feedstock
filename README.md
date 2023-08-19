@@ -3,6 +3,7 @@ About r-wcorr-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-wcorr-feedstock/blob/main/LICENSE.txt)
 
+
 About r-wcorr
 -------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=wCorr
 Package license: GPL-2.0-only
 
 Summary: Calculates Pearson, Spearman, polychoric, and polyserial correlation coefficients, in weighted or unweighted form. The package implements tetrachoric correlation as a special case of the polychoric and biserial correlation as a specific case of the polyserial.
+
 About r-wcorr
 -------------
 

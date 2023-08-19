@@ -1,4 +1,4 @@
-{% set version = "1.9.6" %}
+{% set version = "1.9.8" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/wCorr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/wCorr/wCorr_{{ version }}.tar.gz
-  sha256: 1a6e6cb9412c15ef3216fc227d3e1dda9741694ba4577a9c7c195c166c77e1b8
+  sha256: 62edf39d864093ba6271dc08804e485122b24c20f643cc6f3f19207c020f4549
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
